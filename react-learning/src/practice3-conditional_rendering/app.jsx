@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
         <ul>
-            <li>Chennai: <Weather temp = "24"></Weather></li>
+            <li>Chennai: <Weather temp = "10"></Weather></li>
         </ul>
     </div>
   )
