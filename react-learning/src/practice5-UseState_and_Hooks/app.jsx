@@ -4,11 +4,14 @@ import React from 'react';
 
 const App = () => {
     const [count, setCount] = useState(0);
+          //the variable 'count' is initialized to 0
+          //the function 'setCount' is used to update the value of 'count'
     const [movies, setMovies] = useState(['Inception', 'Interstellar', 'The Dark Knight']);
     const [users, setUsers] = useState([{name: 'Alice', age: 30}, {name: 'Bob', age: 25}, {name: 'Charlie', age: 35}])
 
     const increment = () =>{
         setCount(count + 1)
+//the setCount function is called with the new value of count (count + 1)
     }
     const decrement = () => {
         setCount(count - 1)
